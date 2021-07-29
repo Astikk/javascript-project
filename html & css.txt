@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflexes</title>
+
+
+<style type="text/css">
+
+body{
+    font-family: sans-serif;
+}
+
+#shape{
+    width: 120px;
+    height: 130px;
+    background-color: red;
+    position: relative;
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+
+    <h1> Test Your Reactions!</h1>
+
+    <p> Click on the boxes and circle as quickly as you can! </p>
+ 
+    <p class="bold"> Your Time:  <span id="time"> </span></p>
+
+<div id="shape">
+
+</div>
+
+
+
+<script type="text/javascript" src="scipt.js">
+
+</script>
+</body>
+</html>
